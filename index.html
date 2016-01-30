@@ -18,7 +18,43 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, world!</h1>
+      <!-- Stack the columns on mobile by making navbar full-width and the logo half-width -->
+      <!-- Navbar begin-->
+    <nav class="navbar navbar-default navbar-static-top">
+      <div class="container-fluid">
+        <div class="row">
+          <!-- Brand image -->
+          <div class="col-xs-6 col-md-2">
+            <div class="navbar-header">
+              <a class="navbar-brand" href="#">
+                <img alt="Brand" src="...">
+              </a>
+            </div>
+          </div>
+          <!-- Navigation -->
+          <div class="col-xs-12 col-md-10">
+            <div class="nav">
+              <ul class="nav navbar-nav">
+                <li role="presentation" class="active"><a href="#">Home</a></li>
+                <li role="presentation"><a href="#">Profile</a></li>
+                <li role="presentation"><a href="#">Messages</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!--Navbar end-->
+
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+        <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+        <!-- Optional: clear the XS cols if their content doesn't match in height -->
+        <div class="clearfix visible-xs-block"></div>
+        <div class="col-xs-6 col-sm-4">.col-xs-6 .col-sm-4</div>
+      </div>
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
