@@ -25,7 +25,29 @@
 /* About */
 
 #about {
-  text-align: left;
-  padding: 80px 40px;
   background: grey url('../images/birch-tree-background.jpg') no-repeat left;
+}
+
+.info {
+  text-align: left;
+  font-weight: bold;
+  padding: 80px 20px;
+  text-shadow: 3px 3px 8px rgba(176, 201, 63, 1);
+}
+
+.info h1 {
+  font-size: 3em;
+}
+
+.info p {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+.logodiv {
+  padding: 150px 180px;
+}
+
+.logo {
+  height: 250px;
 }
