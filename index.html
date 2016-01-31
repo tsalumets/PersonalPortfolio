@@ -21,7 +21,7 @@
   <body>
       <!-- Stack the columns on mobile by making navbar full-width and the logo half-width -->
       <!-- Navbar begin-->
-    <nav class="navbar navbar-inverse navbar-static-top">
+    <nav class="navbar navbar-inverse navbar-fixed-top">
       <div class="container-fluid">
 
           <!-- Brand image -->
@@ -56,16 +56,16 @@
 
     </div>
 
-    <div class="container-fluid" id="about">
+    <div class="container-fluid contentContainer" id="about">
       <div class="row">
-        <div class="col-md-6">
+        <div class="col-md-6 info">
           <h1>Salumets</h1>
-          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quibusdam quod sint totam nobis,
+          <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quibusdam quod sint totam nobis,
             aspernatur dicta tempora doloremque quaerat dignissimos earum, cumque at harum rem? Fuga omnis quis,
             officia reiciendis!</p>
         </div>
-        <div class="col-md-6">
-          <div class="logo"><img src="" alt=""></div>
+        <div class="col-md-6 logodiv">
+          <img src="./images/profile-image.jpeg" alt="developer-image" class="img-circle logo">
         </div>
       </div>
     </div>
@@ -74,10 +74,9 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
-<!-- Content container script to set the container width same as window height.
+<!-- Content container script to set the container width same as window height. -->
     <script>
      $(".contentContainer").css("min-height",$(window).height());
     </script>
--->
 </body>
 </html>
