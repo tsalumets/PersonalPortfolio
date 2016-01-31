@@ -1,0 +1,31 @@
+/* Portfolio CSS customisation */
+
+/*Top home content */
+
+#home {
+  text-align: center;
+  padding: 140px 20px;
+  background: green url('../images/forest-background.jpg') no-repeat;
+}
+
+#home h1 {
+  font-size: 3em;
+}
+
+#home p {
+  font-size: 1.5em;
+  font-style: italic;
+/*  border-bottom: 3px solid; */
+}
+
+#home a {
+  margin: 20px 10px;
+}
+
+/* About */
+
+#about {
+  text-align: left;
+  padding: 80px 40px;
+  background: grey url('../images/birch-tree-background.jpg') no-repeat left;
+}

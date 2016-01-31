@@ -9,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/portfolio.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -20,7 +21,7 @@
   <body>
       <!-- Stack the columns on mobile by making navbar full-width and the logo half-width -->
       <!-- Navbar begin-->
-    <nav class="navbar navbar-default navbar-static-top">
+    <nav class="navbar navbar-inverse navbar-static-top">
       <div class="container-fluid">
 
           <!-- Brand image -->
@@ -34,8 +35,9 @@
             <div class="nav">
               <ul class="nav navbar-nav">
                 <li role="presentation" class="active"><a href="#">Home</a></li>
-                <li role="presentation"><a href="#">Profile</a></li>
-                <li role="presentation"><a href="#">Messages</a></li>
+                <li role="presentation"><a href="#">About</a></li>
+                <li role="presentation"><a href="#">Portfolio</a></li>
+                <li role="presentation"><a href="#">Contact</a></li>
               </ul>
             </div>
         </div>
@@ -44,9 +46,27 @@
     </nav>
     <!--Navbar end-->
 
-    <div class="container-fluid contentContainer">
+    <div class="container-fluid contentContainer" id="home">
+      <h1>Salumets.com</h1>
+      <p>Where the magic happens</p>
+
+      <a href="https://github.com/tsalumets" class="btn btn-default btn-lg" role="button">Github</a>
+      <a href="https://www.linkedin.com/in/taavi-salumets-27a02919" class="btn btn-default btn-lg" role="button">LinkedIn</a>
+      <a href="http://www.freecodecamp.com/tsalumets" class="btn btn-default btn-lg" role="button">freeCodeCamp</a>
+
+    </div>
+
+    <div class="container-fluid" id="about">
       <div class="row">
-        
+        <div class="col-md-6">
+          <h1>Salumets</h1>
+          <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ipsum quibusdam quod sint totam nobis,
+            aspernatur dicta tempora doloremque quaerat dignissimos earum, cumque at harum rem? Fuga omnis quis,
+            officia reiciendis!</p>
+        </div>
+        <div class="col-md-6">
+          <div class="logo"><img src="" alt=""></div>
+        </div>
       </div>
     </div>
 
@@ -54,8 +74,10 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+<!-- Content container script to set the container width same as window height.
     <script>
      $(".contentContainer").css("min-height",$(window).height());
     </script>
-  </body>
+-->
+</body>
 </html>
