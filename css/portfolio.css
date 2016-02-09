@@ -2,6 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 body {
   font-family: 'Montserrat', sans-serif;
+  position: relative;
 }
 /*Top home content */
 #home {
@@ -72,6 +73,57 @@ body {
   padding-top: 40px;
 }
 
-.thumbnails {
+.thumbnail a img {
+  height: 200px;
+}
 
+#contact {
+  padding-top: 80px;
+  background: grey url('https://hdwallpapers.cat/wallpaper_mirror/ideal_workplace_evening_room_mac_keyboard_hd-wallpaper-968290.jpg') no-repeat left bottom fixed;
+  background-size: cover;
+  color: white;
+}
+
+#contact h1 {
+  padding-left: 60px;
+  padding-bottom: 20px;
+}
+
+#contact form {
+  width: 50%;
+  display: inline-block;
+}
+
+#contact .row {
+  float: right;
+}
+
+#contact .row a {
+  margin-top: 20px;
+}
+
+.site-footer {
+  height: 40px;
+/*  background-color: #8ED5ED;
+*/}
+
+.site-footer hr {
+  width: 80%;
+}
+
+.site-footer ul {
+  text-align: center;
+  list-style-type: none;
+}
+
+.site-footer ul li {
+  display: inline-block;
+  margin: 0 10px;
+  padding-top: 10px;
+}
+
+.site-footer p {
+  text-align: center;
+  margin: 0;
+  padding-bottom: 10px;
 }
